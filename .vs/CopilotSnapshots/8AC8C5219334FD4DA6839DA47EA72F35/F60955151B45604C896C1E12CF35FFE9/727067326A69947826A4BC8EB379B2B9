@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.Entity;
+
+
+namespace OgrenciYurtYemekSistemi
+{
+    internal class OgrenciYurtYemekDbContext : DbContext
+    {
+        public OgrenciYurtYemekDbContext()
+            : base("name=OgrenciYurtYemekDbContext")
+        {
+        }
+
+        public DbSet<OgrenciBilgileri> OgrenciBilgileri { get; set; }
+
+        public DbSet<YurtBilgileri> YurtBilgileri { get; set; }
+
+        public DbSet<YemekBilgileri> YemekBilgileri { get; set; }
+    }
+}

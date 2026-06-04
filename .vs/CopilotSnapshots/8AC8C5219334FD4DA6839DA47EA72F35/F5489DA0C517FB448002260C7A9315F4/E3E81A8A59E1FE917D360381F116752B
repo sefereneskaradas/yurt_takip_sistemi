@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace OgrenciYurtYemekSistemi
+{
+    public partial class Form_OgrenciBilgileri : Form
+    {
+        OgrenciYurtYemekDbContext db = new OgrenciYurtYemekDbContext();
+        public Form_OgrenciBilgileri()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+
+            this.Hide();
+            form1.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_listele_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var list = db.YurtBilgileri
+                    .Select(y => new
+                    {
+                        y.YurtID,
+                        ÖgrenciID = y.OgrenciID,
+                        y.Durum,
+                        y.OdaNo,
+                        y.AktiflikDurumu
+                    })
+                    .ToList();
+
+                dataGridView1.DataSource = list;
+
+                if (dataGridView1.Columns.Contains("YurtID"))
+                    dataGridView1.Columns["YurtID"].HeaderText = "Yurt ID";
+                if (dataGridView1.Columns.Contains("ÖgrenciID"))
+                    dataGridView1.Columns["ÖgrenciID"].HeaderText = "Öğrenci ID";
+                if (dataGridView1.Columns.Contains("Durum"))
+                    dataGridView1.Columns["Durum"].HeaderText = "Durum";
+                if (dataGridView1.Columns.Contains("OdaNo"))
+                    dataGridView1.Columns["OdaNo"].HeaderText = "Oda No";
+                if (dataGridView1.Columns.Contains("AktiflikDurumu"))
+                    dataGridView1.Columns["AktiflikDurumu"].HeaderText = "Aktiflik Durumu";
+
+                dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Hata = " + ex.Message +
+                    "\n\nİç Hata = " +
+                    (ex.InnerException != null ? ex.InnerException.Message : "Yok")
+                );
+            }
+        }
+    }
+}
+
+
+
+
+
+

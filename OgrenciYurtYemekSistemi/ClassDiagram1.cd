@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OgrenciYurtYemekSistemi.OgrenciBilgileri" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAACAJAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OgrenciBilgileri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OgrenciYurtYemekSistemi.YemekBilgileri">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAQAACAAACAAAAAAABAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>YemekBilgileri.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OgrenciBilgileri" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OgrenciYurtYemekSistemi.YurtBilgileri">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAACAAAABAAAAQAgAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>YurtBilgileri.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OgrenciBilgileri" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

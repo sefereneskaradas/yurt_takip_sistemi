@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|c:\\users\\sefer\\onedrive\\desktop\\ogrenciyurtyemeksistemi\\ogrenciyurtyemeksistemi\\ogrenciyurtyemeksistemi\\form_ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\form_ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\form_ogrencibilgileri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\form_ogrencibilgileri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\form_ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\form_ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\ogrencibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\yurtbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\yurtbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ogrenciyurtyemeksistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C031DA8-6587-40A7-8A99-E6D74C324956}|OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi.csproj|solutionrelative:ogrenciyurtyemeksistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\ClassDiagram1.cd",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-06-04T00:06:58.536Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Program.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Program.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Program.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:19:15.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_OgrenciBilgileri.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:12:47.811Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_OgrenciBilgileri.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.Designer.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.Designer.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.Designer.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:36:22.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form1.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Form1.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T08:48:41.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_OgrenciBilgileri.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Form_OgrenciBilgileri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:16:37.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YurtBilgileri.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\YurtBilgileri.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\YurtBilgileri.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\YurtBilgileri.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\YurtBilgileri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:19:19.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form1.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\Form1.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\Form1.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T10:15:53.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OgrenciBilgileri.cs",
+              "DocumentMoniker": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciBilgileri.cs",
+              "RelativeDocumentMoniker": "OgrenciYurtYemekSistemi\\OgrenciBilgileri.cs",
+              "ToolTip": "C:\\Users\\sefer\\OneDrive\\Desktop\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciYurtYemekSistemi\\OgrenciBilgileri.cs",
+              "RelativeToolTip": "OgrenciYurtYemekSistemi\\OgrenciBilgileri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T23:19:13.607Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

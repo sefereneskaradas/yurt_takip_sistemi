@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+
+namespace OgrenciYurtYemekSistemi
+{
+    [Table("OgrenciBilgileri")]
+    internal class OgrenciBilgileri
+    {
+        [Key]
+        public int OgrenciID { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        [Column("OgrenciAdi")]
+        public string ÖgrenciAdi { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        [Column("OgrenciSoyadi")]
+        public string ÖgrenciSoyadi { get; set; }
+
+        [Required]
+        [MaxLength(20)]
+        [Column("OgrenciNumara")]
+        public string ÖgrenciNumara { get; set; }
+
+        [Required]
+        [MaxLength(11)]
+        [Column("OgrenciTcKimlikNo")]
+        public string ÖgrenciTcKimlikNo { get; set; }
+    }
+}
+
+
+

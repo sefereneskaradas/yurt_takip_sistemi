@@ -1,0 +1,163 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace OgrenciYurtYemekSistemi
+{
+    public partial class Form1 : Form
+    {
+        OgrenciYurtYemekDbContext db = new OgrenciYurtYemekDbContext();
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_listele_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var ogrenciler = db.OgrenciBilgileri.ToList();
+                dataGridView1.DataSource = ogrenciler;
+
+                
+                dataGridView1.Columns["ÖgrenciID"].HeaderText = "Öğrenci ID";
+                dataGridView1.Columns["ÖgrenciAdi"].HeaderText = "Öğrenci Adı";
+                dataGridView1.Columns["ÖgrenciSoyadi"].HeaderText = "Öğrenci Soyadı";
+                dataGridView1.Columns["ÖgrenciNumara"].HeaderText = "Öğrenci Numarası";
+                dataGridView1.Columns["ÖgrenciTcKimlikNo"].HeaderText = "TC Kimlik No";
+
+                
+                dataGridView1.Columns["ÖgrenciID"].Visible = false;
+                dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata = " + ex.Message);
+            }
+        }
+
+        private void btn_ekle_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OgrenciBilgileri yeniOgrenci = new OgrenciBilgileri()
+                {
+                    ÖgrenciAdi = textBox1.Text,
+                    ÖgrenciSoyadi = textBox2.Text,
+                    ÖgrenciNumara = textBox3.Text,
+                    ÖgrenciTcKimlikNo = textBox4.Text
+                };
+
+                db.OgrenciBilgileri.Add(yeniOgrenci);
+                db.SaveChanges();
+
+                MessageBox.Show("Yeni Öğrenci Eklendi!");
+
+                btn_listele.PerformClick();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata = " + ex.Message);
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells["ÖgrenciAdi"].Value.ToString();
+                textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells["ÖgrenciSoyadi"].Value.ToString();
+                textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells["ÖgrenciNumara"].Value.ToString();
+                textBox4.Text = dataGridView1.Rows[e.RowIndex].Cells["ÖgrenciTcKimlikNo"].Value.ToString();
+            }
+        }
+
+        private void btn_güncelle_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dataGridView1.CurrentRow != null)
+                {
+                    int selectedId = Convert.ToInt32(dataGridView1.CurrentRow.Cells["OgrenciID"].Value);
+
+                    OgrenciBilgileri ogrenci = db.OgrenciBilgileri.Find(selectedId);
+
+                    if (ogrenci != null)
+                    {
+                        ogrenci.ÖgrenciAdi = textBox1.Text;
+                        ogrenci.ÖgrenciSoyadi = textBox2.Text;
+                        ogrenci.ÖgrenciNumara = textBox3.Text;
+                        ogrenci.ÖgrenciTcKimlikNo = textBox4.Text;
+
+                        db.SaveChanges();
+
+                        MessageBox.Show("Öğrenci güncellendi!");
+                        btn_listele.PerformClick();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata = " + ex.Message);
+            }
+        }
+
+        private void btn_sil_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult sonuc = MessageBox.Show(
+                    "Öğrenciyi silmek istediğinize emin misiniz?",
+                    "Silme Onayı",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (sonuc == DialogResult.Yes)
+                {
+                    if (dataGridView1.CurrentRow != null)
+                    {
+                        int selectedId = Convert.ToInt32(dataGridView1.CurrentRow.Cells["ÖgrenciID"].Value);
+
+                        OgrenciBilgileri ogrenci = db.OgrenciBilgileri.Find(selectedId);
+
+                        if (ogrenci != null)
+                        {
+                            db.OgrenciBilgileri.Remove(ogrenci);
+                            db.SaveChanges();
+
+                            MessageBox.Show("Öğrenci silindi!");
+                            btn_listele.PerformClick();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata = " + ex.Message);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_OgrenciBilgileri form2 = new Form_OgrenciBilgileri();
+
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
+        }
+    }
+    }
+    
+    
+    
+
+

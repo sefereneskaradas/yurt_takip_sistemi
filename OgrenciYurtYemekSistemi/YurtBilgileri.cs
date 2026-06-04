@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OgrenciYurtYemekSistemi
+{
+    [Table("YurtBilgileri", Schema = "dbo")]
+    internal class YurtBilgileri
+    {
+        [Key]
+        [Column("YurtID")]
+        public int YurtID { get; set; }
+
+        [Required]
+        [ForeignKey("OgrenciBilgileri")]
+        [Column("ÖgrenciID")]
+        public int OgrenciID { get; set; }
+
+        [Required]
+        [MaxLength(10)]
+        [Column("Durum")]
+        public string Durum { get; set; }
+
+        [Required]
+        [Column("OdaNo")]
+        public int OdaNo { get; set; }
+
+        [Required]
+        [MaxLength(10)]
+        [Column("AktiflikDurumu")]
+        public string AktiflikDurumu { get; set; }
+
+        // Foreign key relationship
+        public virtual OgrenciBilgileri OgrenciBilgileri { get; set; }
+    }
+}

@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.Entity;
+
+
+namespace OgrenciYurtYemekSistemi
+{
+    internal class OgrenciYurtYemekDbContext : DbContext
+    {
+        public OgrenciYurtYemekDbContext()
+            : base("name=OgrenciYurtYemekDbContext")
+        {
+            // Pluralizing stratejisini devre dışı bırak
+            this.Configuration.ProxyCreationEnabled = false;
+        }
+
+        public DbSet<OgrenciBilgileri> OgrenciBilgileri { get; set; }
+
+        public DbSet<YurtBilgileri> YurtBilgileri { get; set; }
+
+        public DbSet<YemekBilgileri> YemekBilgileri { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            // Pluralizing konvansiyonunu devre dışı bırak
+            modelBuilder.Conventions.Remove<System.Data.Entity.Infrastructure.Interception.PluralizingTableNameConvention>();
+
+            base.OnModelCreating(modelBuilder);
+        }
+    }
+}
